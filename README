@@ -1,0 +1,26 @@
+This is a skeleton for CS 111 Lab 1.
+
+  team group
+  Zhen Feng 
+  Yi Wang 
+
+
+Replace this README file with notes on your implementation.
+Mentions any special features or limitations.
+
+Lab 1a
+
+   For this part, Our implementation includes two parts. The first one is
+ that read the input file content and then check to see if the input content
+ has something that does not fall into the shell syntax subset and also check
+ the code grammer to see if it has some undefined behavior. Finally, put the
+ space at the place where there is supposed to be one to separate the command.
+
+   After doing all those check, we separate the input stream by the the space
+ and then construct a command line tree, whose node is a simple command.
+  Also we use "()" to find the subshell command, which is a special case for
+this project.
+
+  Therefore, overall, our implementation works just fine and passes all the
+  test cases.
+ 
